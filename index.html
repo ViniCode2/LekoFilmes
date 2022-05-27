@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'> <!-- LINK BOXICONS.COM -->
+    <link rel="stylesheet" href="Crud2.0/css/pgclient2.css"> <!-- CSS -->
+    <title>LekoFilmes</title>
+</head>
+<body>
+
+    <!-- SLIDER DOS FILMES EM DESTAQUE -->
+    <div class="slider">
+
+        <nav class="navbar">
+            <div class="logo">
+                <img class="leko" src="/Crud2.0/img/logo-lekofilmes.png" alt="logo">
+            </div>
+            <div class="guias">
+                <a href="#" class="guia">Home</a>
+                <a href="#" class="guia">Filmes</a>
+                <a href="#" class="guia">Pormoção</a>
+                <a href="#" class="guia">Ingressos</a>
+            </div>
+            <div class="user">
+                    <a href="#"><i class='bx bxs-user-circle' id="icon"></i></a>
+                    <span style='color:#ffffff'>user</span>
+            </div>
+        </nav>
+
+        <div class="featured--vertical">
+        <div class="slides">
+
+            <!-- Radio Buttons -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <!-- Slide Images -->
+                <div class="slide first">
+                    <img src="Crud2.0/img/slider-spider.jpg" alt="imagem 4" id="image">
+                </div>
+                <div class="slide">
+                    <img src="Crud2.0/img/slider-bat.jpg" alt="imagem 2" id="image">
+                </div>
+                <div class="slide">
+                    <img src="Crud2.0/img/slider-ch.jpg" alt="imagem 3" id="image">
+                </div>
+                <div class="slide">
+                    <img src="Crud2.0/img/slider-web.jpg" alt="imagem 1" id="image">
+                </div>
+
+            <!-- Navegation -->
+            <div class="navegation-auto">
+                <div class="autobtn1"></div>
+                <div class="autobtn2"></div>
+                <div class="autobtn3"></div>
+                <div class="autobtn4"></div>
+            </div>
+
+        </div>
+    </div> 
+
+    <div class="filmes">
+        <div class="slideFilmes">
+            <div class="emalta">
+                <div class="slidealta">
+                    <div class="imagens">
+                        <span id="emalta">Em Alta</span>
+                        <a href="#"><img src="./Crud2.0/img/HOMEM_ARANHA_SEM_VOLTA_A_CASA_3_2.jpg" alt="" id="move1"></a>
+                        <a href="#"><img src="./Crud2.0/img/UNCHARTED_5_3.jpg" alt="" id="move2"></a>
+                        <a href="#"><img src="./Crud2.0/img/Avatar 2.jpg" alt="" id="move3"></a>
+                        <a href="#"><img src="./Crud2.0/img/Dr. Estranho.webp" alt="" id="move3"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slideFilmes">
+            <div class="emalta">
+                <div class="slidealta">
+                    <div class="imagens">
+                        <span id="emalta">Em cartaz</span>
+                        <a href="#"><img src="./Crud2.0/img/sonic2.jpg" alt="" id="move1"></a>
+                        <a href="#"><img src="./Crud2.0/img/Encanto.jpg" alt="" id="move2"></a>
+                        <a href="#"><img src="./Crud2.0/img/THE_BATMAN_3_3.jpg" alt="" id="move3"></a>
+                        <a href="#"><img src="./Crud2.0/img/Sing 2.jpg" alt="" id="move3"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slideFilmes">
+            <div class="emalta">
+                <div class="slidealta">
+                    <div class="imagens">
+                        <span id="emalta">Em breve</span>
+                        <a href="#"><img src="./Crud2.0/img/lightyear.jpg" alt="" id="move1"></a>
+                        <a href="#"><img src="./Crud2.0/img/Fett.jpg" alt="" id="move2"></a>
+                        <a href="#"><img src="./Crud2.0/img/Black Adam.jpg" alt="" id="move3"></a>
+                        <a href="#"><img src="./Crud2.0/img/Harry Potter.jpg" alt="" id="move3"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div class="manual-navegation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+    </div>
+
+    <script src="Crud2.0/js/animation.js"></script>
+</body>
+</html>

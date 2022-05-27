@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 250vh;
+    background-color: #1A1924;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+/*ESTILIZANDO BARRA DE ROLAGEM*/
+body::-webkit-scrollbar {
+    width: 15px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #000000;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #1B1619;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 2px solid #474545;  /* creates padding around scroll thumb */
+  }
+
+/*NAVBAR*/
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: #09080c85;
+    position: absolute;
+    z-index: 1;
+    position: fixed;
+    display: flex;
+}
+
+/* LOGO LEKOFILMES */
+.leko{
+    max-width:150px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+}
+
+.logo{
+    position: relative;
+    width: 12%;
+    top: 13px;
+    left: 5px;
+}
+/*guias*/
+.guias{
+    width: 76%;
+    height: 80px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guia{
+    margin-left: 50px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.guia:hover{
+    color: #95BDFF;
+}
+/*user*/
+.user{
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bx{
+    font-size: 35px;
+    color:#ffffff;
+}
+#icon:hover{
+    color: #95BDFF;
+}
+
+/* CSS DOS SLIDES */
+.slider{
+    margin: 0 auto;
+    width: 100vw;
+    height: 250vh;
+    overflow: hidden;
+    position: absolute;
+}
+
+.slides{
+    width: 400%;
+    height: 500px;
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 27%;
+    position: relative;
+    transition: 1s;
+}
+
+#image{
+    width: 100vw;
+    height: 430px;
+}
+
+.manual-btn{
+    width: 15px;
+    height: 15px;
+    border: 2px  solid #000000;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 1s;
+}
+.manual-btn:hover{
+    background-color: #95BDFF;
+}
+
+.manual-navegation{
+    position: absolute;
+    display: flex;
+    margin-top: 30%;
+    margin-left: 45%;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -27%;
+}
+#radio3:checked ~ .first{
+    margin-left: -54%;
+}
+#radio4:checked ~ .first{
+    margin-left: -81%;
+}
+
+
+/* degradê */
+.featured--vertical{
+    width: 100vw;
+    height: 430px;
+   -webkit-mask-image: linear-gradient(to top, transparent 5%, black 100%);
+    position: relative;
+}
+
+/* CSS DOS SLIDES -FIM- */
+
+/* DIVS FILMES */
+.filmes{
+    width: 100%;
+    height: 100%;
+    padding-top: 1rem;
+}
+.slideFilmes{
+    height: 500px;
+    flex-direction: column;
+    height: 350px;
+}
+#move1, 
+#move2, 
+#move3,
+#move4{
+    max-width: 150px;
+    box-shadow: #000000 0px 0px 30px;
+    margin-top: 30px;
+}
+
+#move1, 
+#move2, 
+#move3,
+#move4 div:not(:last-child){
+    margin-right: 80px;
+}
+
+#emalta{
+    position: absolute;
+    left: 150px;
+    color: #c7c7c7;
+    font-size: 20px;
+    cursor: pointer;
+    top: 0;
+    margin-left: 12px;
+}
+
+.emalta{
+    height: 300px;
+}
+
+.slidealta{
+    display: flex;
+    justify-content: center;
+}
+.imagens{
+    width: 90%;
+    height: 280px;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

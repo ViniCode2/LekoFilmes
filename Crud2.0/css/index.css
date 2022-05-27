@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+   /* background: url(../img/home-img.png) no-repeat;
+    width: 100vw;
+    background-size: cover;*/
+    width: 100%;
+    height: 100%;
+}
+
+/* HEADER */
+header{
+    background: rgba(0, 0, 0, 0.548);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+main{
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* logo LekoFilmes */
+img{
+    max-width:200px;
+    max-height:40px;
+}
+
+.logo{
+    width: 30%;
+    float: left;
+}
+
+/* menu */
+.menu ul li{
+    display: flex;
+    float: left;
+    list-style: none;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    color: #95BDFF;
+}
+
+/* icon-user */
+.user{
+    font-size: 35px;
+}
+.main-user{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    color: #fff;
+}
+.main-user:hover{
+    color: #95BDFF;
+}
+
+span{
+    color: #fff;
+}
+
+/* SLIDERS */
+#imagens{
+    max-width: 100vw;
+    max-height: 60vh;
+}
+
+.SlidersRow{
+    position: absolute;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+.sliders{
+    display: flex;
+}
+
+#one{
+    margin-left: 0;
+    transition: all 2s;
+}
+
+.btn{
+    position: absolute;
+    color: #fff;
+    font-size: 35px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+
+
+

@@ -1,0 +1,289 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: url(../img/fundo.png) no-repeat;
+    width: 100vw;
+    background-size: cover;
+    
+}
+
+/* DIV PAI */
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* DIV ESQUERDA */
+.left{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/* LOGO LEKOFILMES */
+img{
+    max-width:200px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+}
+
+.logo{
+    position: relative;
+    bottom: 43vh;
+    padding-left: 3rem;
+}
+
+/* TITULO DA ESQUERDA */
+.title{
+    position: relative;
+    color: #8B8B8B;
+    font-size: 25px;
+    position: absolute;
+    padding-left: 3.5rem;
+    padding-bottom: 30px;
+}
+
+/* traço do titulo */
+.title ::before{
+    content: '';
+    position: absolute;
+    height: 5%;
+    width: 40%;
+    bottom: 10px;
+    border-radius: 8px;
+    background: currentColor;
+}
+
+/* DIV DA DIREITA */
+.right{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* DIV DO FORMULÁRIO DE LOGIN */
+.form {
+    position: absolute;
+    width: 23rem;
+    height: 28rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 3%;
+    box-shadow: 0px 0px 5px;
+    animation-duration: .4s;
+    animation-name: animate-login;
+    }
+
+/* TAG FORM LOGIN */
+.box{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 15%;
+}
+
+/* TAG FORM CADASTRO */
+.box_create{
+    position: absolute;
+    width: 23rem;
+    height: 37rem;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 3%;
+    box-shadow: 0px 0px 5px;
+    padding-top: 1.5rem;
+    animation-duration: .4s;
+    animation-name: animate-login;
+}
+
+@keyframes animate-login {
+    0%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1.1,1.1);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
+
+/* RESPONSIVIDADE */
+@media screen and (min-width: 1900px) {
+    .login-box{
+        margin-right: 45px;
+        margin-left: 15%;
+    }
+
+    .login-input{
+        width: 100%;
+    }
+
+    .login_hide {
+        left: 80%;
+    }
+    
+    #cad {
+        width: 14vw;
+    }
+    #cpf {
+        width: 14vw;
+    }
+}
+
+/* TITULO DO LOGIN FORM */
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+/* DIV DOS INPUT */
+.login-box{
+    display: flex;
+    column-gap: .5rem;
+    padding-top: 2.5rem;
+    padding-right: 10%;
+}
+.input-box{
+    column-gap: .5rem;
+    padding-top: 2.5rem;
+    padding-right: 10%;
+    background: #525659;
+    flex-direction: row;
+}
+
+.login_icon{
+    margin-top: 9px;
+}
+
+.login_hide{
+    position: absolute;
+    cursor: pointer;
+    color: #D9D9D9;
+    font-size: 18px;
+    right: 17%;
+    top: 49%;
+    position: fixed;
+    z-index: 1;
+}
+
+.inputlogin{
+        border: none;
+        outline: none;
+        background: transparent;
+        padding: 10px;
+        width: 20vw;
+}
+
+.login-input{
+    border: none;
+    outline: none;
+    background: #525659;
+    padding: 10px;
+    border-radius: 5px;
+    width: 20vw;
+    color: aliceblue;
+}
+
+.login-input::placeholder{
+    color: #D9D9D9;
+}
+
+#input-hide{
+    position: relative;
+}
+
+/* DIV DOS INPUT CADASTRO */
+.input-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+label{
+    margin-bottom: 20px;
+}
+
+button{
+    margin-top: 15px;
+    padding: 10px;
+    width: 13.4vw;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #525659;
+    color: #D9D9D9;
+    transition: .2s;
+}
+
+#button{
+    margin-top: 27px;
+}
+
+button:hover{
+    background-color: #202224;
+}
+
+.login__button{
+    display: block;
+    padding: 1rem;
+    margin: 2rem 0;
+    background-color: #525659;
+    color: #FFF;
+    font-weight: 600;
+    text-align: center;
+    border-radius: .5rem;
+    transition: .3s;
+}
+
+form > .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+.span{
+    margin-top: 10%;
+    color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#span{
+    margin-bottom: 5px;
+}
+
+/* "clique aqui" */
+.login_signin, .login_signup{
+    padding-top: 5%;
+    color: #95BDFF;
+    cursor: pointer;
+}
+
+/* ESCONDER FORM */
+.block{
+    display: block;
+}
+.none{
+    display: none;
+}
