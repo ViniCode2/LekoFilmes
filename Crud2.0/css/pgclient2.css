@@ -171,7 +171,7 @@ body::-webkit-scrollbar {
 
 .splide{
     visibility: inherit;
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content: center;
 }
@@ -195,11 +195,11 @@ body::-webkit-scrollbar {
 
 .splide__track{
     margin-top: 20px;
-    height: 300px;
+    height: 350px;
 }
 
 #slides{
-    max-width: 150px;
+    max-width: 175px;
     margin-top: 30px;
     box-shadow: hsl(0, 0%, 0%) 0px 0px 20px;
     object-fit: contain;
@@ -218,10 +218,6 @@ body::-webkit-scrollbar {
     position: absolute;
     left: 0;
     color: #ffffff;
-}
-
-.splide__slide{
-    max-width: 300px;
 }
 
 /*

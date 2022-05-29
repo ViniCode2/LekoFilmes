@@ -4,7 +4,7 @@ var elms = document.getElementsByClassName( 'splide' );
 for ( var i = 0; i < elms.length; i++ ) {
 new Splide( elms[ 0 ], {
     type   : 'loop',
-    perPage: 5,
+    perPage: 4.4,
     perMove: 1,
 
 }).mount();
