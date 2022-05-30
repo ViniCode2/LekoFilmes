@@ -10,12 +10,12 @@ new Splide( elms[ 0 ], {
 }).mount();
 new Splide( elms[ 1 ], {
     type   : 'loop',
-    perPage: 5,
+    perPage: 4.4,
     perMove: 1,
 }).mount();
 new Splide( elms[ 2 ], {
     type   : 'loop',
-    perPage: 5,
+    perPage: 4.4,
     perMove: 1,
 }).mount();
 }
