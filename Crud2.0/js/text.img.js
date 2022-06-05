@@ -1,4 +1,17 @@
-const variavel = 2;
+var img = document.querySelector(".img");
 
-const splide__slide = document.createElement("div");
-splide__slide.innerHTML = variavel;
+img.addEventListener("mouseover", function() {
+
+    var hide = document.querySelector("#titulof");
+
+    titulof.classList.remove("block");
+
+});
+
+img.addEventListener("mouseout", function() {
+
+    var hide = document.querySelector("#titulof");
+
+    hide.classList.add("none");
+
+});
