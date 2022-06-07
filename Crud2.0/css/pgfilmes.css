@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 250vh;
+    background-color: #1A1924;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+/*ESTILIZANDO BARRA DE ROLAGEM*/
+body::-webkit-scrollbar {
+    width: 15px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #000000;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #1B1619;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 2px solid #474545;  /* creates padding around scroll thumb */
+  }
+
+.movie{
+    width: 100%;
+    height: 100%;
+}
+
+.trailer{
+    width: 100%;
+    height: 400px;
+}
+#bannersonic{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+.play{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#play{
+    position: relative;
+}
+#play:hover{
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+.featured--horizontal{
+    width: 100vw;
+    height: 400px;
+   -webkit-mask-image: linear-gradient(to top, transparent 5%, black 100%);
+    position: relative;
+}
+
+/* SOBRE O FILME */
+.movie-informations{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-center{
+    width: 80%;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.card-filme{
+    width: 20%;
+    display: flex;
+    margin-top: -80px;
+}
+.information{
+    width: 80%;
+    padding: 0px 20px 0px 20px;
+}
+.other-information{
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 250px;
+}
+.type-movie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+#icon-10{
+    max-width: 23px;
+}
+#card{
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: hsl(0, 0%, 0%) 0px 0px 20px;
+}
