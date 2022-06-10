@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans:wght@700&family=Permanent+Marker&family=Poppins:wght@300&display=swap');
+
 body{
     margin: 0;
     padding: 0;
@@ -47,7 +49,15 @@ body::-webkit-scrollbar {
     width: 12%;
     top: 13px;
     left: 5px;
+    transition: 0.2s;
 }
+.logo:hover{
+    cursor: pointer;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 /*guias*/
 .guias{
     width: 76%;
@@ -62,9 +72,13 @@ body::-webkit-scrollbar {
     margin-left: 50px;
     text-decoration: none;
     color: aliceblue;
+    transition: 0.2s;
 }
 .guia:hover{
     color: #95BDFF;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 /*user*/
 .user{

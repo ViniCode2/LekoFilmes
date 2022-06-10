@@ -12,6 +12,27 @@
 <body>
     
     <div class="movie">
+        <!--
+        <div class="loader-wrapper">
+            <span class="loader"><span class="loader-inner"></span></span>
+        </div>  -->
+
+        <!-- NAVBAR -->
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html"><img class="leko" src="/Crud2.0/img/logo-lekofilmes.png" alt="logo"></a>
+            </div>
+            <div class="guias">
+                <a href="index.html" class="guia">Home</a>
+                <a href="#" class="guia">Filmes</a>
+                <a href="#" class="guia">Pormoção</a>
+                <a href="#" class="guia">Ingressos</a>
+            </div>
+            <div class="user">
+                    <a href="#"><i class='bx bxs-user-circle' id="icon"></i></a>
+                    <span style='color:#ffffff'>user</span>
+            </div>
+        </nav>
 
         <!-- TRAILER FILME -->
         <div class="featured--horizontal">
@@ -33,7 +54,7 @@
                         <img src="Crud2.0/img/filmes/sonic2.jpg" alt="" id="card">
                     </div>
                     <div class="information">
-                        <div class="title"><span>Sonic 2 - O filme</span></div>
+                        <div class="title"><span id="title">Sonic 2 - O filme</span></div>
                         <div class="other-information">
                             <div class="duration">
                                 <i class='bx bx-time' style='color:#ffffff'  ></i>
@@ -48,15 +69,49 @@
                             </div>
                         </div>
                         <div class="type-movie">
-                            <span>Aventura</span>
-                            <span>Comédia</span>
+                            <span id="type">Aventura</span>
+                            <span id="type">Comédia</span>
                         </div>
                     </div>
                 </div>
+                <div class="synopsis">
+                    <p class="sinopse">Após ficar em Green Hills, Sonic quer provar que tem o necessário para ser um herói de verdade. 
+                        Seu teste virá com o retorno do Dr. Robotnik, dessa vez com um novo parceiro, Knuckles, à procura 
+                        de uma esmeralda com o poder de destruir civilizações. Sonic se junta ao seu próprio coadjuvante, 
+                        Tails, e juntos embarcarão em uma jornada pelo mundo para encontrar a esmeralda, antes que ela caia 
+                        em mãos erradas.</p>
+                </div>
+
+                <section class="dates">
+                    <h2 id="title2">Datas disponíveis</h2>
+                        <div class="datas">
+                                <div class="box-date">
+                                    <P id="dia">12/06</P>
+                                </div>
+                                <div class="box-date">
+                                    <p id="dia">15/06</p>
+                                </div>
+                                <div class="box-date">
+                                    <p id="dia">20/06</p>
+                                </div>
+                                <div class="box-date">
+                                    <p id="dia">22/06</p>
+                                </div>
+                        </div>
+                </section>
+
             </div>
         </div>
 
     </div>
+
+
+    <!-- LOADER -->
+    <script>
+        $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>   
 
 </body>
 </html>
