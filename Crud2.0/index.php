@@ -33,6 +33,7 @@ endif;
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/pglogin.css"> <!-- LINK CSS -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'> <!-- LINK BOXICONS.COM -->
+    <link rel = "shortcut icon" type = "imagem/x-icon" href = "img/icons/icon-leko.png"> <!-- ICON GUIA -->
     <title>LekoLogin</title>
 </head>
 <body>

@@ -273,6 +273,33 @@ span{
     gap: 70px;
 }
 
+/* button comprar */
+.buy{
+    width: 10rem;
+    height: 3rem;
+    background-color: #95BDFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.buy:hover{
+    cursor: pointer;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#compra{
+    border: none;
+    background: transparent;
+    color: #2b2b2b;
+    font-size: 17px;
+}
+#compra:hover{
+    cursor: pointer;
+}
+
 /* LOADER PAGE */
   .loader-wrapper {
     width: 100%;

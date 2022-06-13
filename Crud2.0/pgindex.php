@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'> <!-- LINK BOXICONS.COM -->
-    <link rel="stylesheet" href="Crud2.0/css/pgclient2.css"> <!-- CSS -->
-    <link rel="stylesheet" href="Crud2.0/css/splide.min.css"> <!-- CSS SPLIDEJS -->
-    <script src="Crud2.0/js/splide.min.js"></script>
-    <script src="Crud2.0/js/text.img.js"></script>
+    <link rel="stylesheet" href="css/pgclient2.css"> <!-- CSS -->
+    <link rel="stylesheet" href="css/splide.min.css"> <!-- CSS SPLIDEJS -->
+    <link rel = "shortcut icon" type = "imagem/x-icon" href = "img/icons/icon-leko.png"> <!-- ICON GUIA -->
+    <script src="js/splide.min.js"></script>
+    <script src="js/text.img.js"></script>
     <title>LekoFilmes</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
 
         <nav class="navbar">
             <div class="logo">
-                <img class="leko" src="/Crud2.0/img/logo-lekofilmes.png" alt="logo">
+                <img class="leko" src="img/logo-lekofilmes.png" alt="logo">
             </div>
             <div class="guias">
                 <a href="#" class="guia">Home</a>
@@ -43,16 +44,16 @@
 
             <!-- Slide Images -->
                 <div class="slide first">
-                    <img src="Crud2.0/img/slider-spider.jpg" alt="imagem 4" id="image">
+                    <img src="img/slider-spider.jpg" alt="imagem 4" id="image">
                 </div>
                 <div class="slide">
-                    <img src="Crud2.0/img/slider-bat.jpg" alt="imagem 2" id="image">
+                    <img src="img/slider-bat.jpg" alt="imagem 2" id="image">
                 </div>
                 <div class="slide">
-                    <img src="Crud2.0/img/slider-ch.jpg" alt="imagem 3" id="image">
+                    <img src="img/slider-ch.jpg" alt="imagem 3" id="image">
                 </div>
                 <div class="slide">
-                    <img src="Crud2.0/img/slider-web.jpg" alt="imagem 1" id="image">
+                    <img src="img/slider-web.jpg" alt="imagem 1" id="image">
                 </div>
 
             <!-- Navegation -->
@@ -75,39 +76,39 @@
                           <ul class="splide__list">
 
                               <li class="splide__slide">
-                                  <a href="pgfilmes.html">
-                                      <img src="Crud2.0/img/filmes/sonic2.jpg" alt="" id="slides" class="img">
+                                  <a href="pgfilmes.php">
+                                      <img src="img/filmes/sonic2.jpg" alt="" id="slides" class="img">
                                     </a>
                                     <span class="hide" id="titulof">Sonic 2</span>
                                 </li>
                               <li class="splide__slide">
                                     <a href="#">
-                                        <img src="Crud2.0/img/filmes/Dr. Estranho.webp" alt="" id="slides">
+                                        <img src="img/filmes/Dr. Estranho.webp" alt="" id="slides">
                                     </a>
                                 </li>
                               <li class="splide__slide">
                                     <a href="#">
-                                        <img src="Crud2.0/img/filmes/Encanto.jpg" alt="" id="slides">
+                                        <img src="img/filmes/Encanto.jpg" alt="" id="slides">
+                    
+                                </li>
+                              <li class="splide__slide">
+                                    <a href="#">
+                                        <img src="img/filmes/Avatar 2.jpg" alt="" id="slides">
                                     </a>
                                 </li>
                               <li class="splide__slide">
                                     <a href="#">
-                                        <img src="Crud2.0/img/filmes/Avatar 2.jpg" alt="" id="slides">
-                                    </a>
-                                </li>
-                              <li class="splide__slide">
-                                    <a href="#">
-                                        <img src="Crud2.0/img/filmes/HOMEM_ARANHA_SEM_VOLTA_A_CASA_3_2.jpg" alt="" id="slides">
+                                        <img src="img/filmes/HOMEM_ARANHA_SEM_VOLTA_A_CASA_3_2.jpg" alt="" id="slides">
                                     </a>
                                 </li>
                                 <li class="splide__slide">
                                     <a href="#">
-                                        <img src="Crud2.0/img/filmes/UM_SUSTO_DE_FAMILIA_2_1_2.jpg" alt="" id="slides">
+                                        <img src="img/filmes/UM_SUSTO_DE_FAMILIA_2_1_2.jpg" alt="" id="slides">
                                     </a>
                                 </li>
                                 <li class="splide__slide">
                                     <a href="#">
-                                        <img src="Crud2.0/img/filmes/UNCHARTED_5_3.jpg" alt="" id="slides">
+                                        <img src="img/filmes/UNCHARTED_5_3.jpg" alt="" id="slides">
                                     </a>
                                 </li>
                           </ul>
@@ -120,42 +121,36 @@
                 <span class="titulos">Em Breve</span>
                 <div class="splide__track">
                       <ul class="splide__list">
-
                         <li class="splide__slide">
                             <a href="#">
-                                <img src="Crud2.0/img/filmes/sonic2.jpg" alt="" id="slides">
-                              </a>
-                          </li>
+                                <img src="img/filmes/Avatar.jpeg" alt="" id="slides">
+                            </a>
+                        </li>
                         <li class="splide__slide">
-                              <a href="#">
-                                  <img src="Crud2.0/img/filmes/Dr. Estranho.webp" alt="" id="slides">
-                              </a>
-                          </li>
+                            <a href="#">
+                                <img src="img/filmes/Camara-Secreta.jpeg" alt="" id="slides">
+                            </a>
+                        </li>
                         <li class="splide__slide">
-                              <a href="#">
-                                  <img src="Crud2.0/img/filmes/Encanto.jpg" alt="" id="slides">
-                              </a>
-                          </li>
+                            <a href="#">
+                                <img src="img/filmes/Jurassic-Parck.jpeg" alt="" id="slides">
+                            </a>
+                        </li>
                         <li class="splide__slide">
-                              <a href="#">
-                                  <img src="Crud2.0/img/filmes/Avatar 2.jpg" alt="" id="slides">
-                              </a>
-                          </li>
+                            <a href="#">
+                                <img src="img/filmes/minions.jpeg" alt="" id="slides">
+                            </a>
+                        </li>
                         <li class="splide__slide">
-                              <a href="#">
-                                  <img src="Crud2.0/img/filmes/HOMEM_ARANHA_SEM_VOLTA_A_CASA_3_2.jpg" alt="" id="slides">
-                              </a>
-                          </li>
-                          <li class="splide__slide">
-                              <a href="#">
-                                  <img src="Crud2.0/img/filmes/UM_SUSTO_DE_FAMILIA_2_1_2.jpg" alt="" id="slides">
-                              </a>
-                          </li>
-                          <li class="splide__slide">
-                              <a href="#">
-                                  <img src="Crud2.0/img/filmes/UNCHARTED_5_3.jpg" alt="" id="slides">
-                              </a>
-                          </li>
+                            <a href="#">
+                                <img src="img/filmes/Pantera-Negra.jpeg" alt="" id="slides">
+            
+                        </li>
+                        <li class="splide__slide">
+                            <a href="#">
+                                <img src="img/filmes/Uncharted.jpeg" alt="" id="slides">
+                            </a>
+                        </li>
                       </ul>
                 </div>
               </section>
@@ -169,37 +164,37 @@
 
                         <li class="splide__slide">
                             <a href="#">
-                                <img src="Crud2.0/img/filmes/sonic2.jpg" alt="" id="slides">
+                                <img src="img/filmes/sonic2.jpg" alt="" id="slides">
                               </a>
                           </li>
                         <li class="splide__slide">
                               <a href="#">
-                                  <img src="Crud2.0/img/filmes/Dr. Estranho.webp" alt="" id="slides">
+                                  <img src="img/filmes/Dr. Estranho.webp" alt="" id="slides">
                               </a>
                           </li>
                         <li class="splide__slide">
                               <a href="#">
-                                  <img src="Crud2.0/img/filmes/Encanto.jpg" alt="" id="slides">
+                                  <img src="img/filmes/Encanto.jpg" alt="" id="slides">
                               </a>
                           </li>
                         <li class="splide__slide">
                               <a href="#">
-                                  <img src="Crud2.0/img/filmes/Avatar 2.jpg" alt="" id="slides">
+                                  <img src="img/filmes/Avatar 2.jpg" alt="" id="slides">
                               </a>
                           </li>
                         <li class="splide__slide">
                               <a href="#">
-                                  <img src="Crud2.0/img/filmes/HOMEM_ARANHA_SEM_VOLTA_A_CASA_3_2.jpg" alt="" id="slides">
+                                  <img src="img/filmes/HOMEM_ARANHA_SEM_VOLTA_A_CASA_3_2.jpg" alt="" id="slides">
                               </a>
                           </li>
                           <li class="splide__slide">
                               <a href="#">
-                                  <img src="Crud2.0/img/filmes/UM_SUSTO_DE_FAMILIA_2_1_2.jpg" alt="" id="slides">
+                                  <img src="img/filmes/UM_SUSTO_DE_FAMILIA_2_1_2.jpg" alt="" id="slides">
                               </a>
                           </li>
                           <li class="splide__slide">
                               <a href="#">
-                                  <img src="Crud2.0/img/filmes/UNCHARTED_5_3.jpg" alt="" id="slides">
+                                  <img src="img/filmes/UNCHARTED_5_3.jpg" alt="" id="slides">
                               </a>
                           </li>
                       </ul>
@@ -218,6 +213,5 @@
     </div>
 
     <!-- SPLIDERJS PICTURE CAROUSEL -->
-    <script src="Crud2.0/js/carousel.js"></script>
-</body>
+    <script src="js/carousel.js"></script>
 </html>
