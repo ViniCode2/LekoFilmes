@@ -20,7 +20,7 @@
         <!-- NAVBAR -->
         <nav class="navbar">
             <div class="logo">
-                <a href="index.html"><img class="leko" src="img/logo-lekofilmes.png" alt="logo"></a>
+                <a href="pgindex.php"><img class="leko" src="img/logo-lekofilmes.png" alt="logo"></a>
             </div>
             <div class="guias">
                 <a href="pgindex.php" class="guia">Home</a>

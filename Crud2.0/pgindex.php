@@ -19,10 +19,10 @@
 
         <nav class="navbar">
             <div class="logo">
-                <img class="leko" src="img/logo-lekofilmes.png" alt="logo">
+                <a href="pgindex.php"><img class="leko" src="img/logo-lekofilmes.png" alt="logo"></a>
             </div>
             <div class="guias">
-                <a href="#" class="guia">Home</a>
+                <a href="pgindex.php" class="guia">Home</a>
                 <a href="#" class="guia">Filmes</a>
                 <a href="#" class="guia">Pormoção</a>
                 <a href="#" class="guia">Ingressos</a>
@@ -164,37 +164,37 @@
 
                         <li class="splide__slide">
                             <a href="#">
-                                <img src="img/filmes/sonic2.jpg" alt="" id="slides">
+                                <img src="img/filmes/INTERESTRELAR.jpeg" alt="" id="slides">
                               </a>
                           </li>
                         <li class="splide__slide">
                               <a href="#">
-                                  <img src="img/filmes/Dr. Estranho.webp" alt="" id="slides">
+                                  <img src="img/filmes/MORBIUS.jpeg" alt="" id="slides">
                               </a>
                           </li>
                         <li class="splide__slide">
                               <a href="#">
-                                  <img src="img/filmes/Encanto.jpg" alt="" id="slides">
+                                  <img src="img/filmes/NOPE.jpeg" alt="" id="slides">
                               </a>
                           </li>
                         <li class="splide__slide">
                               <a href="#">
-                                  <img src="img/filmes/Avatar 2.jpg" alt="" id="slides">
+                                  <img src="img/filmes/SING 2.jpeg" alt="" id="slides">
                               </a>
                           </li>
                         <li class="splide__slide">
                               <a href="#">
-                                  <img src="img/filmes/HOMEM_ARANHA_SEM_VOLTA_A_CASA_3_2.jpg" alt="" id="slides">
+                                  <img src="img/filmes/KINGS MAN.jpeg" alt="" id="slides">
                               </a>
                           </li>
                           <li class="splide__slide">
                               <a href="#">
-                                  <img src="img/filmes/UM_SUSTO_DE_FAMILIA_2_1_2.jpg" alt="" id="slides">
+                                  <img src="img/filmes/CIDADE PERDIDA.jpeg" alt="" id="slides">
                               </a>
                           </li>
                           <li class="splide__slide">
                               <a href="#">
-                                  <img src="img/filmes/UNCHARTED_5_3.jpg" alt="" id="slides">
+                                  <img src="img/filmes/BLACK WIDOW.jpeg" alt="" id="slides">
                               </a>
                           </li>
                       </ul>
