@@ -36,7 +36,7 @@
                                 }
                              
                              ?>
-                          <a href="index.php"><button type="button" class="btn btn-primary">Voltar</button></a>
+                          <a href="pgindex.php"><button type="button" class="btn btn-primary">Voltar</button></a>
                 
                 
 </div>

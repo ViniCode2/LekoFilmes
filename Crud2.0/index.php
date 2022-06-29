@@ -16,9 +16,16 @@ else:
     $result = mysqli_query($conn, $sql);
 
     if(mysqli_num_rows($result) > 0):
-        header('location: restrito');
+        header('location: restrito/pgindex.php');
     else:
         $erros[] = "<p>E-mail invalido";
+    if (($login == "admin") and ($senha == "admin")):
+        session_start();
+        $_SESSION['login'] = "Robson";
+        header("location: restrito");
+    else:
+        echo "Login inválido";
+    endif;
 endif;
 endif;
 endif;
