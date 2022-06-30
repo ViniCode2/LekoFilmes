@@ -6,10 +6,6 @@
     font-family: "Poppins", sans-serif;
 }
 
-body{
-
-}
-
 nav{
 
     display: flex;
@@ -22,8 +18,4 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.membros{
-
 }
