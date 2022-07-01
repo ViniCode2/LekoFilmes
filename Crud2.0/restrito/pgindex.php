@@ -7,7 +7,7 @@
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'> <!-- LINK BOXICONS.COM -->
     <link rel="stylesheet" href="../css/pgclient2.css"> <!-- CSS -->
     <link rel="stylesheet" href="../css/splide.min.css"> <!-- CSS SPLIDEJS -->
-    <link rel = "shortcut icon" type = "imagem/x-icon" href = "./icons/icon-leko.png"> <!-- ICON GUIA -->
+    <link rel = "shortcut icon" type = "imagem/x-icon" href = "../icons/icon-leko.png"> <!-- ICON GUIA -->
     <script src="../js/splide.min.js"></script>
     <script src="../js/text.img.js"></script>
     <title>LekoFilmes</title>
