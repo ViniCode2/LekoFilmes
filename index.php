@@ -2,7 +2,7 @@
 
 include "restrito/action/conexao.php";
 
-session_start();
+session_start(); 
 
 if(isset($_POST['btn-entrar'])):
     $erros = array();
@@ -21,7 +21,7 @@ else:
         $erros[] = "<p>E-mail invalido";
     if (($login == "admin") and ($senha == "admin")):
         session_start();
-        $_SESSION['login'] = "Robson";
+        $_SESSION['login'] = "Jones";
         header("location: restrito");
     else:
         echo "Login inválido";
