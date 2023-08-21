@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/pgfilmes.css">
+    <link rel="stylesheet" href="../css/pgfilmes.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'> <!-- BOXICON.COM -->
-    <link rel = "shortcut icon" type = "imagem/x-icon" href = "img/icons/icon-leko.png"> <!-- ICON GUIA -->
+    <link rel = "shortcut icon" type = "imagem/x-icon" href = "../img/icons/icon-leko.png"> <!-- ICON GUIA -->
     <title>Sonic 2</title>
 </head>
 <body>
@@ -20,10 +20,10 @@
         <!-- NAVBAR -->
         <nav class="navbar">
             <div class="logo">
-                <a href="restrito/pgindex.php"><img class="leko" src="img/logo-lekofilmes.png" alt="logo"></a>
+                <a href="../restrito/pagPrincipal.php"><img class="leko" src="../img/logo-lekofilmes.png" alt="logo"></a>
             </div>
             <div class="guias">
-                <a href="restrito/pgindex.php" class="guia">Home</a>
+                <a href="../restrito/pagPrincipal.php" class="guia">Home</a>
                 <a href="#" class="guia">Filmes</a>
                 <a href="#" class="guia">Promoção</a>
                 <a href="#" class="guia">Ingressos</a>
@@ -38,7 +38,7 @@
         <div class="featured--horizontal">
         <div class="trailer">
             <div class="banner">
-                <img src="img/W6h1SPGXxQ9hEbQANwEV.jpg" alt="" id="bannersonic">
+                <img src="../img/W6h1SPGXxQ9hEbQANwEV.jpg" alt="" id="bannersonic">
             </div>
             <div class="play">
                 <a href="https://youtu.be/A2SjVRziC7M"><img src="https://www.multicinecinemas.com.br/assets/images/icon/icon-play.svg" alt="" id="play"></a>
@@ -51,7 +51,7 @@
             <div class="container-center">
                 <div class="card">
                     <div class="card-filme">
-                        <img src="img/filmes/sonic2.jpg" alt="" id="card">
+                        <img src="../img/filmes/sonic2.jpg" alt="" id="card">
                     </div>
                     <div class="information">
                         <div class="title"><span id="title">Sonic 2 - O filme</span></div>
@@ -61,7 +61,7 @@
                                 <span>2h e 02min</span>
                             </div>
                             <div class="restriction">
-                                <img src="img/icons/numero-10.png" alt="icon-10" id="icon-10">
+                                <img src="../img/icons/numero-10.png" alt="icon-10" id="icon-10">
                             </div>
                             <div class="evaluation">
                                 <span>Avaliação popular: </span>
@@ -101,7 +101,7 @@
                 </section>
 
                     <div class="buy">
-                        <a href="compra.php">
+                        <a href="pay/compra.php">
                             <input type="button" value="comprar ingresso" id="compra">
                         </a>
                     </div>

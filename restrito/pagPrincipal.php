@@ -19,10 +19,10 @@
 
         <nav class="navbar">
             <div class="logo">
-                <a href="pgindex.php"><img class="leko" src="../img/logo-lekofilmes.png" alt="logo"></a>
+                <a href="pagPrincipal.php"><img class="leko" src="../img/logo-lekofilmes.png" alt="logo"></a>
             </div>
             <div class="guias">
-                <a href="pgindex.php" class="guia">Home</a>
+                <a href="pagPrincipal.php" class="guia">Home</a>
                 <a href="#" class="guia">Filmes</a>
                 <a href="#" class="guia">Pormoção</a>
                 <a href="#" class="guia">Ingressos</a>
@@ -76,7 +76,7 @@
                           <ul class="splide__list">
 
                               <li class="splide__slide">
-                                  <a href="../pgfilmes.php">
+                                  <a href="./sonicExempo.php">
                                       <img src="../img/filmes/sonic2.jpg" alt="" id="slides" class="img">
                                     </a>
                                     <span class="hide" id="titulof">Sonic 2</span>

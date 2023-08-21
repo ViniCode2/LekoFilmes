@@ -19,9 +19,9 @@
                 <button type="submit" class="btn btn-success" name="submit" value="submit">Enviar</button>
             </p>
             
-       <div class="back">
-            <a href="pgfilmes.php">voltar</a>
-       </div>
-</div>
+            <div class="back">
+                    <a href="../pagPrincipal.php">voltar</a>
+            </div>
+        </div>
     </body>
 </html>
