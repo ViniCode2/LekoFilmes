@@ -25,7 +25,7 @@
             <div class="guias">
                 <a href="restrito/pgindex.php" class="guia">Home</a>
                 <a href="#" class="guia">Filmes</a>
-                <a href="#" class="guia">Pormoção</a>
+                <a href="#" class="guia">Promoção</a>
                 <a href="#" class="guia">Ingressos</a>
             </div>
             <div class="user">
